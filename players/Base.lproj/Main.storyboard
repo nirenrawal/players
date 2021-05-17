@@ -60,6 +60,7 @@
                                     <constraint firstAttribute="height" constant="22" id="Jkk-TN-F8J"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="swI-Fx-y57"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Add Player">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
@@ -73,6 +74,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="436" id="iiM-92-UD0"/>
                                 </constraints>
+                                <color key="separatorColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlayerCell" rowHeight="189" id="4Wr-fz-Ma2" customClass="ViewControllerTableViewCell" customModule="players" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="369" height="189"/>
@@ -110,6 +112,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="labelAge" destination="Ibl-J6-kok" id="FEd-9o-45L"/>
@@ -135,7 +138,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Lb-zp-TtN" secondAttribute="trailing" constant="25" id="2ic-RW-RTZ"/>
                             <constraint firstItem="0dm-MW-DcJ" firstAttribute="top" secondItem="4Lb-zp-TtN" secondAttribute="bottom" constant="35" id="372-IY-YIc"/>
@@ -184,6 +187,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
